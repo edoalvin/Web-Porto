@@ -1,4 +1,4 @@
-VANTA.WAVES({
+VANTA.NET({
   el: "#vanta-bg",
   mouseControls: true,
   touchControls: true,
@@ -7,9 +7,10 @@ VANTA.WAVES({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0x0,
-  shininess: 27.00,
-  waveHeight: 18.50,
-  waveSpeed: 0.35,
-  zoom: 1.42
+  color: 0x777777,
+  backgroundColor: 0x0,
+  points: 10.00,
+  maxDistance: 19.00,
+  spacing: 18.00,
+  showDots: true
 })

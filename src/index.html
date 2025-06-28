@@ -9,43 +9,76 @@
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Geologica:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <header class="flex justify-between px-32 py-8 bg-black">
-        <div class="flex text-white">
-            <h1 class="text-xl font-medium">Edo Alvin</h1>
-        </div>
 
+<body class="bg-black">
+    <header class="flex justify-center px-32 py-8 bg-black">
         <nav class="flex">
-            <ul class=" flex text-xl font-medium gap-10 text-white hover:text-yellow-400">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class=" flex text-xl font-medium gap-20 text-white">
+                <li class=" hover:text-yellow-400"><a href="#">Home</a></li>
+                <li class=" hover:text-yellow-400"><a href="#">Skills</a></li>
+                <li class=" hover:text-yellow-400"><a href="#">Projects</a></li>
+                <li class=" hover:text-yellow-400"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!--HERO Start-->
-    <div id="vanta-bg" class="flex justify-between px-20 py-32 gap-12 bg-gray-950">
+    <div id="vanta-bg" class="flex justify-between px-20 py-32 gap-12">
         <div class="flex flex-col gap-6 max-w-2xl">
             <h2 class="text-3xl text-white">Edoardo Alvin Nugroho</h2>
             <h1 class="text-6xl font-semibold text-white">UI/UX Designer & Front End Developer</h1>
             <p class="text-md text-justify text-white">Welcome to my portfolio! Here you can explore my projects, design work, 
             and passion for creating meaningful digital experiences.</p>
-            <button class="flex w-1/4 px-3 py-4 bg-yellow-200 justify-center rounded-xl font-bold border-2 border-black">Download CV</button>
+            <button class="flex w-1/4 px-3 py-4 bg-yellow-400 justify-center rounded-xl font-bold border-2 hover:bg-white hover:text-yellow-700">Download CV</button>
         </div>
 
         <div class="flex justify-center overflow-hidden items-start">
-            <img src="image/Image.jpg" alt="image" class="h-4/6 w-4/6 rounded-full object-cover border-2 object-top border-black shadow-md">
+            <img src="image/Hero Img.jpg" alt="image" class="h-4/6 w-4/6 rounded-full object-cover border-2 object-top border-black shadow-md">
         </div>
     </div>
     <!--Hero End-->
 
-    <!--About-->
-    
+    <!--Skills Start-->
+    <div class="flex flex-col justify-center text-center px-28 py-32 gap-10">
+        <div class="flex justify-center">
+            <h1 class="text-white text-5xl font-semibold">From design systems <br> to front-end code <br> here's what I do best</h1>
+        </div>
+        
+        <!--Introducing Skills-->
+        <div class="flex gap-20 justify-center">
+            <!--Figma-->
+            <div class="flex flex-col items-center gap-4 p-10 border-2">
+                <img src="image/figma.svg" alt="image" class="w-20 h-20">
+                <p class="text-white text-xl font-semibold">Figma</p>
+                <p class="text-white text-center">I create UI/UX prototypes and design systems in Figma.</p>
+            </div>
+            <!--HTML Start-->
+            <div class="flex flex-col items-center gap-4 p-10">
+                <img src="image/html.svg" alt="image" class="w-20 h-20">
+                <p class="text-white text-xl font-semibold">HTML</p>
+                <p class="text-white">I build the foundation of web pages with clean, semantic structure.</p>
+            </div>
+            <!--HTML End-->
+
+            <!--CSS Start-->
+            <div class="flex flex-col items-center gap-4 p-10">
+                <img src="image/css.svg" alt="image" class="w-20 h-20">
+                <p class="text-white text-xl font-semibold">CSS</p>
+                <p class="text-white">I style interfaces to be responsive, modern, and accessible.</p>
+            </div>
+            <!--CSS End-->
+
+            <!--JS-->
+            <div class="flex flex-col items-center gap-4 p-10">
+                <img src="image/javascript.svg" alt="image" class="w-20 h-20">
+                <p class="text-white text-xl font-semibold">JavaScript</p>
+                <p class="text-white">I add interactivity and functionality to bring web pages to life.</p>
+            </div>
+            <!--JS End-->
+        </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
