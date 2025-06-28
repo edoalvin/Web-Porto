@@ -10,36 +10,42 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="flex justify-between px-20 py-8 bg-yellow-400">
-        <div class="flex">
+    <header class="flex justify-between px-32 py-8 bg-black">
+        <div class="flex text-white">
             <h1 class="text-xl font-medium">Edo Alvin</h1>
         </div>
 
         <nav class="flex">
-            <ul class=" flex text-xl font-medium gap-10">
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Project</li>
-                <li>Contact</li>
+            <ul class=" flex text-xl font-medium gap-10 text-white hover:text-yellow-400">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- HERO Start -->
+    <!--HERO Start-->
     <div id="vanta-bg" class="flex justify-between px-20 py-32 gap-12 bg-gray-950">
         <div class="flex flex-col gap-6 max-w-2xl">
             <h2 class="text-3xl text-white">Edoardo Alvin Nugroho</h2>
             <h1 class="text-6xl font-semibold text-white">UI/UX Designer & Front End Developer</h1>
             <p class="text-md text-justify text-white">Welcome to my portfolio! Here you can explore my projects, design work, 
             and passion for creating meaningful digital experiences.</p>
-            <button class="flex w-1/5 px-2 py-3 bg-yellow-400 justify-center rounded-xl font-bold border-2 border-black">Contact Me</button>
+            <button class="flex w-1/4 px-3 py-4 bg-yellow-200 justify-center rounded-xl font-bold border-2 border-black">Download CV</button>
         </div>
 
         <div class="flex justify-center overflow-hidden items-start">
-            <img src="image/Image.jpg" alt="image" class="h-4/6 w-4/6 rounded-full object-cover border-2 object-top border-black">
+            <img src="image/Image.jpg" alt="image" class="h-4/6 w-4/6 rounded-full object-cover border-2 object-top border-black shadow-md">
         </div>
     </div>
+    <!--Hero End-->
+
+    <!--About-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
