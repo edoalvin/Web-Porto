@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const href = this.getAttribute('href');
-            if (href === "# ") {
+            if (href === "#") {
                 // Kalau linknya hanya #, scroll ke atas
                 window.scrollTo({
                     top: 0,
